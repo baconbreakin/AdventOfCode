@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class Day1Test {
 
     @Test
-    @DisplayName("Solving the example Prompt - Day 1 Part 1")
+    @DisplayName("Solving the example Prompt - Day 1 Part 1 - some change")
     void part1_examplePrompt() {
         List<String> lines = Day1.parseFileToLines("day1/example.txt");
         Long result = Day1.solvePart1Calories(lines);
